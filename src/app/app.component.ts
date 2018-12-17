@@ -13,12 +13,12 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     const config = {
-      apiKey: 'AIzaSyBO45Rbu5lDLI2gUHEWHZCzRqtYs8Nm73Y',
-      authDomain: 'angular-app-30cbd.firebaseapp.com',
-      databaseURL: 'https://angular-app-30cbd.firebaseio.com',
-      projectId: 'angular-app-30cbd',
-      storageBucket: 'angular-app-30cbd.appspot.com',
-      messagingSenderId: '997393770086'
+      apiKey: '',
+      authDomain: '',
+      databaseURL: '',
+      projectId: '',
+      storageBucket: '',
+      messagingSenderId: ''
     };
     firebase.initializeApp(config);
     this.auth.autoSessionInitialize();
